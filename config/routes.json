@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "path": "(.*)",
+      "methods": ["GET", "POST"],
+      "module": "index",
+      "export": "default",
+      "authentication": "Public",
+      "label": "All Routes"
+    },
+
+  ]
+}
