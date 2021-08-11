@@ -5,5 +5,6 @@ export default async function (context: RequestContext) {
   // const text = await result.text(); // remove this line it works 
   // context.logger.info(`Response length: ${text.length}`);
   // const response = new Response(text, result);
+  // return response;
   return result;
 }
